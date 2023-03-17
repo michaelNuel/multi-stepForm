@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(148, 184, 255);
+  height: 100%;
+  max-width: 500px;
+}
+
+.App {
+  width: 90vw;
+}
+
+.App__wrapper {
+  margin: 3rem 7rem 3rem 15rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.testing_cont {
+  margin-left: 11rem;
+  margin-top: -12rem;
+}/*# sourceMappingURL=App.css.map */

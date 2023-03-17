@@ -1,0 +1,51 @@
+.comp__details {
+  display: flex;
+  margin: 1rem 2rem 0 2rem;
+  padding: 1.2rem;
+  padding-top: 2rem;
+  text-decoration: none;
+}
+.comp__details .number__wrapper .details_numb {
+  font-size: 0.8rem;
+  margin-right: 3rem;
+  margin-top: 0;
+  border: 2px solid white;
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  color: white;
+  list-style: none;
+}
+.comp__details .number__wrapper .details_numb_active {
+  background-color: aqua;
+  color: black;
+  font-size: 0.8rem;
+  margin-right: 3rem;
+  margin-top: 0;
+  border: 2px solid white;
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  list-style: none;
+}
+.comp__details .details_info {
+  display: flex;
+  flex-direction: column;
+}
+.comp__details .details_info .details_info_top {
+  font-size: 0.8rem;
+  color: #b3b3b3;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+.comp__details .details_info .details_info_bottom {
+  font-size: 1rem;
+  color: rgb(238, 235, 235);
+  text-transform: uppercase;
+}/*# sourceMappingURL=SidebarComp.css.map */

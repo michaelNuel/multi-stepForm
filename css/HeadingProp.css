@@ -1,0 +1,13 @@
+.Heading__wrapper {
+  margin: 2rem 8rem;
+}
+.Heading__wrapper .Heading__Text {
+  font-size: 2.9rem;
+  margin-bottom: 0.7rem;
+  color: rgb(1, 1, 53);
+  font-weight: bolder;
+}
+.Heading__wrapper .Heading__Subtext {
+  font-size: 1.2rem;
+  color: #666666;
+}/*# sourceMappingURL=HeadingProp.css.map */

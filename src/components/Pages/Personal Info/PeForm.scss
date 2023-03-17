@@ -1,0 +1,26 @@
+.Create__Form{
+    margin: 2rem 8rem;
+
+    form{
+        display: flex;
+        flex-direction: column;
+        margin-top: -1rem;
+        
+
+        .form__info{
+            color:rgb(1, 1, 53);
+            margin: .4rem;
+            font-size: 1rem;
+            font-weight: bolder;
+        }
+
+        .inputBar{
+            border-radius:10px ;
+            padding: 1rem 3rem 1rem .7rem;
+        }
+
+        .inputBar::placeholder{
+             font-weight: bolder;
+        }
+    }
+}

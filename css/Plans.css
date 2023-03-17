@@ -1,0 +1,40 @@
+.btn__monthly__opt {
+  background-color: transparent;
+  border-radius: 10px;
+  padding-right: 3rem;
+  border: 1px solid rgb(166, 162, 162);
+  padding-left: 1rem;
+  transition: all 0.4s ease;
+}
+.btn__monthly__opt .icon__opt {
+  display: flex;
+  flex-direction: column;
+}
+.btn__monthly__opt .icon__opt .icons {
+  font-size: 0.8rem;
+  margin-left: 0.7rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  color: white;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50px;
+}
+.btn__monthly__opt .icon__opt .plan__details {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0.7rem;
+}
+.btn__monthly__opt .icon__opt .plan__details .plan__mainText {
+  color: rgb(1, 1, 53);
+}
+.btn__monthly__opt .icon__opt .plan_amount {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0.7rem;
+  margin-bottom: 2rem;
+}
+.btn__monthly__opt:hover {
+  border: 1px solid rgb(202, 16, 202);
+  background-color: rgba(202, 16, 202, 0.177);
+}/*# sourceMappingURL=Plans.css.map */

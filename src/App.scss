@@ -1,0 +1,46 @@
+
+//   @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Ubuntu+Mono&family=Ubuntu:wght@300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgb(148, 184, 255);
+    // background-color: white ;
+    height: 100%;
+    max-width: 500px;
+ 
+}
+
+
+.App{
+      width: 90vw;
+    
+    
+}
+
+ .App__wrapper{
+    margin: 3rem 7rem 3rem 15rem ;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.testing_cont{
+    margin-left: 11rem;
+    margin-top: -12rem;
+}
+
+
+// .children__wrapper{
+//     margin-top: -8rem;
+// }
