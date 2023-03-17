@@ -1,7 +1,7 @@
 import Sidebar from "./components/Sidebar-comp/Sidebar";
 import './App.scss';
 import './components/Props/ButtonProp/ButtonDiv/ButtonDiv.scss'
-import PE from "./components/Pages/Personal Info/PE";
+import PE from "./components/Pages/Personal Info/PersonalInfo";
 import AddOns from "./components/Pages/ADD_ON/AddOns";
 import SelectPlan from "./components/Pages/SELECT/SelectPlan";
 import Summary from "./components/Pages/SUMMARY/Summary";

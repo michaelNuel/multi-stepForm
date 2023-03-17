@@ -1,6 +1,6 @@
-import './PeForm.scss'
+import './PersonalInfoForm.scss'
 
-const PEForm = ({formInfo, placeholderText}) => {
+const PersonalInfoForm = ({formInfo, placeholderText}) => {
   return (
     <div className="Create__Form">
        <form>
@@ -15,4 +15,4 @@ const PEForm = ({formInfo, placeholderText}) => {
   )
 }
 
-export default PEForm
+export default PersonalInfoForm

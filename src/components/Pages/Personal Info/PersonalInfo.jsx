@@ -1,12 +1,12 @@
 import HeadingProp from "../../Props/HeadingProp/HeadingProp"
 import ButtonPe from "./ButtonPe"
-import PEForm from "./PEForm"
-import './PeForm.scss'
+import PEForm from "./PersonalInfoForm"
+import './PersonalInfoForm.scss'
 
 
 
 
-const PE = () => {
+const PersonalInfo = () => {
   return (
     <div className="children__wrapper">
      <HeadingProp mainText={'Personal info'} subText={'Please provide your name, email, address and phone number'}/>
@@ -19,4 +19,4 @@ const PE = () => {
   )
 }
 
-export default PE
+export default PersonalInfo
