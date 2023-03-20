@@ -1,17 +1,21 @@
 import SwitchBtn from "./SwitchBtn"
-import { Link, useMatch, useResolvedPath } from "react-router-dom"
+import { Link } from "react-router-dom"
 import './Switchdiv.scss'
+import { useState } from "react"
 
 
-const SwitchDiv = ({to}) => {
+const SwitchDiv = () => {
+  
+    const [ isToggled, setisToggled] = useState(false)
 
-  const resolvedPath = useResolvedPath(to)
-  const isActive = useMatch({path: resolvedPath.pathname, end: true})
   
   return (
     <div className="Switch__container">
       <Link to={"selectPlan"} className="Switch__links">Monthly</Link>
-       <SwitchBtn className={ isActive ? 'Switch__links_active': 'Switch__links' } />
+       <SwitchBtn className='Switch__links_active'
+       isToggle={isToggled}
+       onToggle ={() => setisToggled(!isToggled)}
+       />
       <Link to={"/selectPlan "} className="Switch__links">Yearly</Link>
     </div>
   )
